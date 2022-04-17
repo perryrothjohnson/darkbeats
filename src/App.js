@@ -306,7 +306,7 @@ class App extends Component {
     const {updateBPM, start, stop, addTrack, share, randomSong, closeDialog} = this;
     return (
       <div className="app">
-        <h3>tinysynth</h3>
+        <h3>Whale Beats</h3>
         {shareHash ?
           <ShareDialog hash={shareHash} closeDialog={closeDialog} /> : null}
         <table>

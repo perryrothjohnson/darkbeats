@@ -1,8 +1,8 @@
 {
-  "name": "tinysynth",
+  "name": "whalebeats",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://n1k0.github.io/tinysynth",
+  "homepage": "http://lizrothjohnson.github.io/whalebeats",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",

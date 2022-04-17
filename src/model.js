@@ -6,10 +6,10 @@ import samples from "./samples.json";
 
 export function initTracks(): Track[] {
   return [
-    {id: 1, name: "hihat-reso", vol: .4, muted: false, beats: initBeats(16)},
-    {id: 2, name: "hihat-plain", vol: .4, muted: false, beats: initBeats(16)},
-    {id: 3, name: "snare-vinyl01", vol: .9, muted: false, beats: initBeats(16)},
-    {id: 4, name: "kick-electro01", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 1, name: "sperm-whale-1", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 2, name: "humpback-whale", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 3, name: "minke-whale", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 4, name: "blue-whale", vol: .8, muted: false, beats: initBeats(16)},
   ];
 }
 
@@ -22,7 +22,7 @@ export function addTrack(tracks: Track[]) {
   return [
     ...tracks, {
       id,
-      name: "kick-electro01",
+      name: "fin-whale",
       vol: .8,
       muted: false,
       beats: initBeats(16),

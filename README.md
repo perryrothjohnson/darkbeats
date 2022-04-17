@@ -1,6 +1,6 @@
-# tinysynth
+# whalebeats
 
-This experiment might be renamed *tinytracks* later at some point, depending on what it becomes.
+This project was forked from tinysynth. We swapped out the drum samples with whale sounds from NOAA.
 
 ## Setup instructions
 

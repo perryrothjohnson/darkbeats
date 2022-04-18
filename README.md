@@ -20,7 +20,13 @@ Start [here](https://youtu.be/0twjvW0c1r0) for an overview... but essentially yo
 
 ## Update the webpage on GitHub Pages
 
-Follow the directions in this blog:
+You'll need [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) installed, then:
+
+```
+$ npm run deploy
+```
+
+See all the details in this blog:
 [How to Deploy a React App to GitHub Pages](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/)
 
 Note: you can skip the **Routing in React** section, since `whalebeats` is a single page React app.

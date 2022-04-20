@@ -25,6 +25,8 @@ import * as sequencer from "./sequencer";
 import * as model from "./model";
 import samples from "./samples.json";
 
+//click to start audio
+function mouseClicked() {Tone.context.resume()};
 
 class SampleSelector extends Component {
   state: {

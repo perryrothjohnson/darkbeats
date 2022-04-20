@@ -26,7 +26,8 @@ import * as model from "./model";
 import samples from "./samples.json";
 
 //click to start audio
-function mouseClicked() {Tone.context.resume()};
+//function mouseClicked() {Tone.context.resume()};
+//function StartAudioContext() {Tone.context};
 
 class SampleSelector extends Component {
   state: {
@@ -226,6 +227,7 @@ class App extends Component {
   }
 
   start = () => {
+    Tone.context.resume();
     this.setState({playing: true});
     this.loop.start();
   };

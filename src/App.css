@@ -1,5 +1,11 @@
+body {
+  background-color: #181818;
+  color: snow;
+}
+
 .app {
   margin: 1em 0 2em 2em;
+  background: #181818;
 }
 
 .track th {
@@ -16,7 +22,7 @@
 }
 
 .beat {
-  background: #eee;
+  background: #555;
   text-align: center;
   line-height: 1em;
   border-radius: 2px;

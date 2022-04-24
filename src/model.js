@@ -6,10 +6,10 @@ import samples from "./samples.json";
 
 export function initTracks(): Track[] {
   return [
-    {id: 1, name: "sperm-whale-1", vol: .8, muted: false, beats: initBeats(16)},
-    {id: 2, name: "humpback-whale", vol: .8, muted: false, beats: initBeats(16)},
-    {id: 3, name: "minke-whale", vol: .8, muted: false, beats: initBeats(16)},
-    {id: 4, name: "blue-whale", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 1, name: "comet-67p-rosetta-singing-magnetic-field", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 2, name: "jupiter-juno-bow-shock", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 3, name: "mars-percy-rover-first-sound-recording", vol: .8, muted: false, beats: initBeats(16)},
+    {id: 4, name: "sun-soho-natural-vibrations", vol: .8, muted: false, beats: initBeats(16)},
   ];
 }
 
@@ -22,7 +22,7 @@ export function addTrack(tracks: Track[]) {
   return [
     ...tracks, {
       id,
-      name: "fin-whale",
+      name: "mars-percy-rover-driving",
       vol: .8,
       muted: false,
       beats: initBeats(16),

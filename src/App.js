@@ -18,7 +18,8 @@ import {
 } from "react-mdl";
 
 import "./App.css";
-import "react-mdl/extra/css/material.light_blue-pink.min.css";
+import "react-mdl/extra/css/material.blue_grey-light_blue.min.css";
+// import "react-mdl/extra/css/material.light_blue-pink.min.css";
 import "react-mdl/extra/material.js";
 
 import * as sequencer from "./sequencer";

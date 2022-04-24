@@ -29,18 +29,20 @@ body {
 }
 
 .beat.active {
-  background: pink;
+  background: #999;
+  /*background: #40C4FF;*/
 }
 
 .beat.current {
-  background: #f5f5eb;
+  background: #456B7D;
+  /*background: #f5f5eb;*/
 }
 
 .beat:nth-of-type(3),
 .beat:nth-of-type(7),
 .beat:nth-of-type(11),
 .beat:nth-of-type(15) {
-  border-left: 4px solid lightblue;
+  border-left: 4px solid #607D8B;
 }
 
 .beat > a {

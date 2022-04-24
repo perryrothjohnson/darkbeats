@@ -1,6 +1,6 @@
 # spacebeats
 
-This project was forked from [whalebeats](https://github.com/lizrothjohnson/whalebeats). We swapped out the drum samples with space sounds from [NASA](https://soundcloud.com/nasa/popular-tracks) and [ESA](https://soundcloud.com/esa/popular-tracks).
+This project was forked from [whalebeats](https://github.com/lizrothjohnson/whalebeats). We swapped out the whale sounds with space sounds from [NASA](https://soundcloud.com/nasa/popular-tracks) and [ESA](https://soundcloud.com/esa/popular-tracks).
 
 ## List of samples
 

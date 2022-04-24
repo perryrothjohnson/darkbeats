@@ -1,8 +1,8 @@
 {
-  "name": "whalebeats",
+  "name": "spacebeats",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lizrothjohnson.github.io/whalebeats",
+  "homepage": "http://perryrothjohnson.github.io/spacebeats",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",

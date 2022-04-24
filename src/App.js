@@ -317,7 +317,7 @@ class App extends Component {
           <tr>
             <td colSpan="19">
               <p style={{textAlign: "right"}}>
-                <Button type="button" colored onClick={randomSong}>I am uninspired, get me some random tracks</Button>
+                <Button type="button" colored onClick={randomSong}>randomize it</Button>
               </p>
             </td>
           </tr>
